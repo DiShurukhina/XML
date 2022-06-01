@@ -1,1 +1,18 @@
-
+<?xml version="1.0"?>
+<BugReport>
+  <Title>Приложение падает при запуске на Android 11 после предоставления разрешения на работу с камерой</Title>
+  <AppVersion>1.0.64(110)</AppVersion>
+  <OSVersion>Android 11</OSVersion>
+  <Sevetiry>Critical</Sevetiry>
+  <Priority>High</Priority>
+  <Status>Open</Status>
+  <Author>Dinara Shurukhina</Author>
+  <Discription>Приложние падает после предоставления разрешения на работу с камерой на Андроид 11</Discription>
+  <StepsToReproduce>
+    <Step1>Установить приложение</Step1>
+    <Step2>Запустить приложение</Step2>
+    <Step3>Предоставить разрешение на работу с камерой</Step3>
+  </StepsToReproduce>
+  <ActualResult>Приложение падает</ActualResult>
+  <ExpectedResult>Приложение не падает</ExpectedResult>
+</BugReport>
